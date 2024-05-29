@@ -1023,7 +1023,7 @@
   };
 
   defaultExport$2.prototype.renderBarChart = function renderBarChart (chart) {
-    this.renderColumnChart(chart, "bar");
+    this.renderColumnChart(chart, "column");
   };
 
   defaultExport$2.prototype.renderScatterChart = function renderScatterChart (chart, chartType) {
@@ -1203,7 +1203,7 @@
   };
 
   defaultExport$1.prototype.renderLineChart = function renderLineChart (chart, chartType) {
-    chartType = chartType || "spline";
+    chartType = chartType || "line";
     var chartOptions = {};
     if (chartType === "areaspline") {
       chartOptions = {
@@ -1347,7 +1347,7 @@
   };
 
   defaultExport$1.prototype.renderBarChart = function renderBarChart (chart) {
-    this.renderColumnChart(chart, "bar");
+    this.renderColumnChart(chart, "column");
   };
 
   defaultExport$1.prototype.renderAreaChart = function renderAreaChart (chart) {
